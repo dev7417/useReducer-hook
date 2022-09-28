@@ -1,12 +1,11 @@
 import "./App.css";
-import { useReducer } from "react";
-import Increment from "./Components/Increment";
+import Todo from "./Components/Todo";
 
 
 function App() {
   return (
     <>
-    <Increment/>
+    <Todo/>
 
     </>
   );
